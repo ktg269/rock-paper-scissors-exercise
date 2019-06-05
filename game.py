@@ -14,15 +14,9 @@ print("USER CHOICE:",user_choice)
 
 
 
-if user_choice in["rock", "Paper", "scissors"]:
-    print("VALID")
-else:
+if user_choice not in["rock", "Paper", "scissors"]:
     print("INVALID SELECTION. PLEASE TRY IT AGAIN")
     exit()
-
-
-
-
 
 
 # GENERATE COMPUTER SELECTION
