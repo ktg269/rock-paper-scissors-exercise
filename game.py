@@ -6,11 +6,28 @@ print("Rock, Paper, Scissors, Shoot!")
 
 
 user_choice = input("Please choose one of the following options: 'rock', 'paper', or 'scissors' (without the quotes):")
-# VALIDATE INPUTS
 print("---------")
 print("USER CHOICE:",user_choice)
 
+# VALIDATE INPUTS
+
+
+
+
+if user_choice in["rock", "Paper", "scissors"]:
+    print("VALID")
+else:
+    print("INVALID SELECTION. PLEASE TRY IT AGAIN")
+    exit()
+
+
+
+
+
+
 # GENERATE COMPUTER SELECTION
+
+print("GENERATING...")
 
 # DETERMINE THE WINNER
 
